@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/News-Website-ReactJS/static/css/main.2ea15856.css",
+    "main.js": "/News-Website-ReactJS/static/js/main.5db4fd62.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/News-Website-ReactJS/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "index.html": "/News-Website-ReactJS/index.html",
+    "main.2ea15856.css.map": "/News-Website-ReactJS/static/css/main.2ea15856.css.map",
+    "main.5db4fd62.js.map": "/News-Website-ReactJS/static/js/main.5db4fd62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ea15856.css",
+    "static/js/main.5db4fd62.js"
+  ]
+}
