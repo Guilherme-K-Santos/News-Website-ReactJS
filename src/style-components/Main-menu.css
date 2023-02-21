@@ -1,0 +1,69 @@
+/* giant content div config */
+
+.main {
+    flex: 2;
+    margin: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* removing default settings */
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* adjusting image */
+
+.main img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* div below image with title and p */
+
+.content {
+    display: flex;
+}
+
+.h1-mainmenu {
+    width: 30%;
+    font-size: 50px;
+    flex: 1;
+    margin-right: 40px;
+}
+
+/* another div with p and 'button': read more */
+
+.content div {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    color: hsl(236, 13%, 42%);
+}
+
+/* 'button' editing */
+
+.content a {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    display: flex;
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+
+}
+
+.content a:hover {
+    background-color: hsl(240, 100%, 5%);
+}

@@ -1,0 +1,157 @@
+/* Hi, this is an separated file to media queries and adjustment on the original website, for acessibility propouses */
+
+/* imports */
+
+@import url(../App.css);
+@import url(../Menu.css);
+@import url(../Main-menu.css);
+@import url(../Side-menu.css);
+@import url(../Footer-menu.css);
+
+/* Media queries */
+  
+@media (min-width: 1020px) and (max-width: 1300px) {
+    /* CSS styles for large screens */
+    
+    /* changing app.css */
+
+    .App {
+        width: 90vw;
+        height: 100%;
+        margin: 30px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* changing main-menu.css */
+
+    .main {
+        margin-right: auto;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .content a {
+        margin-top: 10px;
+        width: 150px;
+        height: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 1020px) {
+    /* CSS styles for medium screens */
+    
+    /* changing app.css */
+
+    .App {
+        width: 90vw;
+        height: 100%;
+        margin: 30px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* changing main-menu.css */
+
+    .main {
+        margin-right: auto;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .content a {
+        margin-top: 10px;
+        width: 150px;
+        height: 40px;
+    }
+    /* changing footer */
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* changing footer-item */
+
+    .footer-item {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    /* CSS styles for large screens */
+
+    /* changing app.css */
+
+    .App {
+        width: 90vw;
+        height: 100%;
+        margin: 30px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* menu changing */
+
+    nav {
+        display: none;
+    }
+
+    .menu img {
+        width: 50px;
+    }
+    
+    /* changing main-menu.css */
+
+    .main {
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .h1-mainmenu {
+        width: auto;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    .content a {
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    /* changing footer */
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* changing footer-item */
+
+    .footer-item {
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+
+}

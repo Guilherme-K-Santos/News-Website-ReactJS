@@ -1,0 +1,22 @@
+.side {
+    flex: 1;
+    display: flex;
+    background-color: hsl(240, 100%, 5%);
+    flex-direction: column;
+}
+
+/* just the first son h1: */
+
+.side > h1 {
+    margin: 25px 0 20px 20px;
+    font-size: 40px;
+    color: hsl(35, 77%, 62%);
+}
+
+/* config list */
+
+.side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

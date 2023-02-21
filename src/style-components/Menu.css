@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu img {
+    width: 100px;
+}
+
+/* navigation */
+
+.menu nav {
+    align-self: center;
+}
+
+.links {
+    margin: 0 20px;
+}
+
+/* please wait, do not trade the order of these next components, one will overwrite other */
+
+.links:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: hsl(5, 85%, 63%);
+}
+
